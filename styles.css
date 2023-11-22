@@ -1,0 +1,82 @@
+* {
+  font-family: 'Arial', sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 350px 320px 200px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-board {
+  border: solid 2px #333;
+  background-color: #f9f9f9;
+}
+
+.play-button {
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: #0d8bf2;
+}
+
+#pause-btn {
+  display: none;
+}
+
+#sound-speaker {
+  font-size: 30px;
+  color: #333;
+}
+
+.sound-item {
+  cursor: pointer;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+}
+
+#highScores {
+  list-style-type: none;
+  padding: 0;
+}
+
+#highScores li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Add more styles based on your preferences */
