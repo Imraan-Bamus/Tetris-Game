@@ -1,0 +1,21 @@
+/* Import your existing styles from styles.css */
+@import url('styles.css');
+
+/* Additional styles for responsiveness */
+@media only screen and (max-width: 768px) {
+  /* Adjust grid layout for smaller screens */
+  .grid {
+    grid-template-columns: 100%;
+  }
+
+  .left-column, .right-column {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust game board size for smaller screens */
+  .game-board {
+    width: 100%;
+  }
+}
